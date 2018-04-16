@@ -1,0 +1,11 @@
+{
+  "name": "@martyhsm/csharp",
+  "version": "1.0.1-0",
+  "description": "",
+  "main": "marty.cs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Phillips (brandon.phillips@live.com)",
+  "license": "MIT"
+}

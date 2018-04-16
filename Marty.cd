@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Marty.MartyBase" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABQAFAAACAAJQAAAABBAKBCAAAIAAZFaCAgBEAQAAA=</HashCode>
+      <FileName>MartyBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Marty.MartyConstants" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>MartyConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Marty.MartyInstruction" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>MartyInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Marty.MartyState" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACoQAAACBAFAQAAAAECAQAAAAEAAAEJAgAAAAIBAA=</HashCode>
+      <FileName>MartyState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Marty.MartyStateIdGenerator" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAIAAAA=</HashCode>
+      <FileName>MartyStateIdGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Marty.MartyInstructionTypes" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MartyInstructionTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Marty.BlockTransitionHandler" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MartyDelegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Marty.ProcessingHandler" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MartyDelegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Marty.EventHandler" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>MartyDelegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Marty.StateLookupHandler" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MartyDelegates.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
