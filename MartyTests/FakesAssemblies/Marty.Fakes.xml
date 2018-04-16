@@ -1,0 +1,452 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Marty.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Marty.Fakes.ShimMartyBase">
+            <summary>Shim type of Marty.MartyBase</summary>
+        </member>
+        <member name="M:Marty.Fakes.ShimMartyBase.#ctor(Marty.MartyBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Marty.Fakes.ShimMartyBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.AllowTransitionsGet">
+            <summary>Sets the shim of MartyBase.get_AllowTransitions()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.AllowTransitionsSetBoolean">
+            <summary>Sets the shim of MartyBase.set_AllowTransitions(Boolean value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.BlockTransitioning">
+            <summary>Sets the shim of MartyBase.BlockTransitioning()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.ChangeStateMartyState">
+            <summary>Sets the shim of MartyBase.ChangeState(MartyState destinationState)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.CheckEventNumbering">
+            <summary>Sets the shim of MartyBase.CheckEventNumbering()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.CheckStartingStateMartyState">
+            <summary>Sets the shim of MartyBase.CheckStartingState(MartyState state)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.CurrentStateGet">
+            <summary>Sets the shim of MartyBase.get_CurrentState()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.CurrentStateSetMartyState">
+            <summary>Sets the shim of MartyBase.set_CurrentState(MartyState value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.GetStateNullableOfInt64">
+            <summary>Sets the shim of MartyBase.GetState(Nullable`1&lt;Int64&gt; id)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.Initialize">
+            <summary>Sets the shim of MartyBase.Initialize()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.IsBusyGet">
+            <summary>Sets the shim of MartyBase.get_IsBusy()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.IsInitializedGet">
+            <summary>Sets the shim of MartyBase.get_IsInitialized()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.IsInitializedSetBoolean">
+            <summary>Sets the shim of MartyBase.set_IsInitialized(Boolean value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.IsProcessingGet">
+            <summary>Sets the shim of MartyBase.get_IsProcessing()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.IsProcessingSetBoolean">
+            <summary>Sets the shim of MartyBase.set_IsProcessing(Boolean value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.IsTransitioningGet">
+            <summary>Sets the shim of MartyBase.get_IsTransitioning()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.IsTransitioningSetBoolean">
+            <summary>Sets the shim of MartyBase.set_IsTransitioning(Boolean value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.PrepareStates">
+            <summary>Sets the shim of MartyBase.PrepareStates()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.PrepareTopState">
+            <summary>Sets the shim of MartyBase.PrepareTopState()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.RaiseEventInt32Object">
+            <summary>Sets the shim of MartyBase.RaiseEvent(Int32 evt, Object payload)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.RegisterEventInt32Array">
+            <summary>Sets the shim of MartyBase.RegisterEvent(Int32[] events)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.RegisterStateMartyStateEventHandlerMartyStateMartyState">
+            <summary>Sets the shim of MartyBase.RegisterState(MartyState state, EventHandler eventHandler, MartyState parentState, MartyState startingState)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.RunNextInstruction">
+            <summary>Sets the shim of MartyBase.RunNextInstruction()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.SetProcessingBoolean">
+            <summary>Sets the shim of MartyBase.SetProcessing(Boolean isProcessing)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.TopGet">
+            <summary>Sets the shim of MartyBase.get_Top()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.TopHandlerInt32Object">
+            <summary>Sets the shim of MartyBase.TopHandler(Int32 evt, Object payload)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.TopSetMartyState">
+            <summary>Sets the shim of MartyBase.set_Top(MartyState value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllInstances.TransitionToMartyState">
+            <summary>Sets the shim of MartyBase.TransitionTo(MartyState destination)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllowTransitionsGet">
+            <summary>Sets the shim of MartyBase.get_AllowTransitions()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.AllowTransitionsSetBoolean">
+            <summary>Sets the shim of MartyBase.set_AllowTransitions(Boolean value)</summary>
+        </member>
+        <member name="M:Marty.Fakes.ShimMartyBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Marty.Fakes.ShimMartyBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.BlockTransitioning">
+            <summary>Sets the shim of MartyBase.BlockTransitioning()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.ChangeStateMartyState">
+            <summary>Sets the shim of MartyBase.ChangeState(MartyState destinationState)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.CheckEventNumbering">
+            <summary>Sets the shim of MartyBase.CheckEventNumbering()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.CheckStartingStateMartyState">
+            <summary>Sets the shim of MartyBase.CheckStartingState(MartyState state)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.Constructor">
+            <summary>Sets the shim of MartyBase.MartyBase()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.CurrentStateGet">
+            <summary>Sets the shim of MartyBase.get_CurrentState()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.CurrentStateSetMartyState">
+            <summary>Sets the shim of MartyBase.set_CurrentState(MartyState value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.GetStateNullableOfInt64">
+            <summary>Sets the shim of MartyBase.GetState(Nullable`1&lt;Int64&gt; id)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.Initialize">
+            <summary>Sets the shim of MartyBase.Initialize()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.IsBusyGet">
+            <summary>Sets the shim of MartyBase.get_IsBusy()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.IsInitializedGet">
+            <summary>Sets the shim of MartyBase.get_IsInitialized()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.IsInitializedSetBoolean">
+            <summary>Sets the shim of MartyBase.set_IsInitialized(Boolean value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.IsProcessingGet">
+            <summary>Sets the shim of MartyBase.get_IsProcessing()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.IsProcessingSetBoolean">
+            <summary>Sets the shim of MartyBase.set_IsProcessing(Boolean value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.IsTransitioningGet">
+            <summary>Sets the shim of MartyBase.get_IsTransitioning()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.IsTransitioningSetBoolean">
+            <summary>Sets the shim of MartyBase.set_IsTransitioning(Boolean value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.PrepareStates">
+            <summary>Sets the shim of MartyBase.PrepareStates()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.PrepareTopState">
+            <summary>Sets the shim of MartyBase.PrepareTopState()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.RaiseEventInt32Object">
+            <summary>Sets the shim of MartyBase.RaiseEvent(Int32 evt, Object payload)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.RegisterEventInt32Array">
+            <summary>Sets the shim of MartyBase.RegisterEvent(Int32[] events)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.RegisterStateMartyStateEventHandlerMartyStateMartyState">
+            <summary>Sets the shim of MartyBase.RegisterState(MartyState state, EventHandler eventHandler, MartyState parentState, MartyState startingState)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.RunNextInstruction">
+            <summary>Sets the shim of MartyBase.RunNextInstruction()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.SetProcessingBoolean">
+            <summary>Sets the shim of MartyBase.SetProcessing(Boolean isProcessing)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.TopGet">
+            <summary>Sets the shim of MartyBase.get_Top()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.TopHandlerInt32Object">
+            <summary>Sets the shim of MartyBase.TopHandler(Int32 evt, Object payload)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.TopSetMartyState">
+            <summary>Sets the shim of MartyBase.set_Top(MartyState value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyBase.TransitionToMartyState">
+            <summary>Sets the shim of MartyBase.TransitionTo(MartyState destination)</summary>
+        </member>
+        <member name="T:Marty.Fakes.ShimMartyState">
+            <summary>Shim type of Marty.MartyState</summary>
+        </member>
+        <member name="M:Marty.Fakes.ShimMartyState.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Marty.Fakes.ShimMartyState.#ctor(Marty.MartyState)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AddChildInt64">
+            <summary>Sets the shim of MartyState.AddChild(Int64 state)</summary>
+        </member>
+        <member name="T:Marty.Fakes.ShimMartyState.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.AddChildInt64">
+            <summary>Sets the shim of MartyState.AddChild(Int64 state)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.BlockTransitionHandlerGet">
+            <summary>Sets the shim of MartyState.get_BlockTransitionHandler()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.BlockTransitionHandlerSetBlockTransitionHandler">
+            <summary>Sets the shim of MartyState.set_BlockTransitionHandler(BlockTransitionHandler value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.ChildrenGet">
+            <summary>Sets the shim of MartyState.get_Children()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.EnterMartyState">
+            <summary>Sets the shim of MartyState.Enter(MartyState source)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.EventHandlerGet">
+            <summary>Sets the shim of MartyState.get_EventHandler()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.EventHandlerSetEventHandler">
+            <summary>Sets the shim of MartyState.set_EventHandler(EventHandler value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.ExitMartyState">
+            <summary>Sets the shim of MartyState.Exit(MartyState destinationState)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.IdGet">
+            <summary>Sets the shim of MartyState.get_Id()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.IdSetInt64">
+            <summary>Sets the shim of MartyState.set_Id(Int64 value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.IsAncestorMartyState">
+            <summary>Sets the shim of MartyState.IsAncestor(MartyState state)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.IsChildMartyState">
+            <summary>Sets the shim of MartyState.IsChild(MartyState state)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.IsChildNullableOfInt64">
+            <summary>Sets the shim of MartyState.IsChild(Nullable`1&lt;Int64&gt; stateId)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.IsDescendantMartyState">
+            <summary>Sets the shim of MartyState.IsDescendant(MartyState state)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.IsSiblingMartyState">
+            <summary>Sets the shim of MartyState.IsSibling(MartyState state)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.IsTopStateGet">
+            <summary>Sets the shim of MartyState.get_IsTopState()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.NameGet">
+            <summary>Sets the shim of MartyState.get_Name()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.NameSetString">
+            <summary>Sets the shim of MartyState.set_Name(String value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.ParentStateGet">
+            <summary>Sets the shim of MartyState.get_ParentState()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.ParentStateSetNullableOfInt64">
+            <summary>Sets the shim of MartyState.set_ParentState(Nullable`1&lt;Int64&gt; value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.ProcessEventInt32Object">
+            <summary>Sets the shim of MartyState.ProcessEvent(Int32 evt, Object payload)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.ProcessingHandlerGet">
+            <summary>Sets the shim of MartyState.get_ProcessingHandler()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.ProcessingHandlerSetProcessingHandler">
+            <summary>Sets the shim of MartyState.set_ProcessingHandler(ProcessingHandler value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.Start">
+            <summary>Sets the shim of MartyState.Start()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.StartingStateGet">
+            <summary>Sets the shim of MartyState.get_StartingState()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.StartingStateSetNullableOfInt64">
+            <summary>Sets the shim of MartyState.set_StartingState(Nullable`1&lt;Int64&gt; value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.StateLookupHandlerGet">
+            <summary>Sets the shim of MartyState.get_StateLookupHandler()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.AllInstances.StateLookupHandlerSetStateLookupHandler">
+            <summary>Sets the shim of MartyState.set_StateLookupHandler(StateLookupHandler value)</summary>
+        </member>
+        <member name="M:Marty.Fakes.ShimMartyState.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Marty.Fakes.ShimMartyState.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.BlockTransitionHandlerGet">
+            <summary>Sets the shim of MartyState.get_BlockTransitionHandler()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.BlockTransitionHandlerSetBlockTransitionHandler">
+            <summary>Sets the shim of MartyState.set_BlockTransitionHandler(BlockTransitionHandler value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.ChildrenGet">
+            <summary>Sets the shim of MartyState.get_Children()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.Constructor">
+            <summary>Sets the shim of MartyState.MartyState()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.ConstructorString">
+            <summary>Sets the shim of MartyState.MartyState(String name)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.EnterMartyState">
+            <summary>Sets the shim of MartyState.Enter(MartyState source)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.EventHandlerGet">
+            <summary>Sets the shim of MartyState.get_EventHandler()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.EventHandlerSetEventHandler">
+            <summary>Sets the shim of MartyState.set_EventHandler(EventHandler value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.ExitMartyState">
+            <summary>Sets the shim of MartyState.Exit(MartyState destinationState)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.IdGet">
+            <summary>Sets the shim of MartyState.get_Id()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.IdSetInt64">
+            <summary>Sets the shim of MartyState.set_Id(Int64 value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.IsAncestorMartyState">
+            <summary>Sets the shim of MartyState.IsAncestor(MartyState state)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.IsChildMartyState">
+            <summary>Sets the shim of MartyState.IsChild(MartyState state)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.IsChildNullableOfInt64">
+            <summary>Sets the shim of MartyState.IsChild(Nullable`1&lt;Int64&gt; stateId)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.IsDescendantMartyState">
+            <summary>Sets the shim of MartyState.IsDescendant(MartyState state)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.IsSiblingMartyState">
+            <summary>Sets the shim of MartyState.IsSibling(MartyState state)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.IsTopStateGet">
+            <summary>Sets the shim of MartyState.get_IsTopState()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.NameGet">
+            <summary>Sets the shim of MartyState.get_Name()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.NameSetString">
+            <summary>Sets the shim of MartyState.set_Name(String value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.ParentStateGet">
+            <summary>Sets the shim of MartyState.get_ParentState()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.ParentStateSetNullableOfInt64">
+            <summary>Sets the shim of MartyState.set_ParentState(Nullable`1&lt;Int64&gt; value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.ProcessEventInt32Object">
+            <summary>Sets the shim of MartyState.ProcessEvent(Int32 evt, Object payload)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.ProcessingHandlerGet">
+            <summary>Sets the shim of MartyState.get_ProcessingHandler()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.ProcessingHandlerSetProcessingHandler">
+            <summary>Sets the shim of MartyState.set_ProcessingHandler(ProcessingHandler value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.Start">
+            <summary>Sets the shim of MartyState.Start()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.StartingStateGet">
+            <summary>Sets the shim of MartyState.get_StartingState()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.StartingStateSetNullableOfInt64">
+            <summary>Sets the shim of MartyState.set_StartingState(Nullable`1&lt;Int64&gt; value)</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.StateLookupHandlerGet">
+            <summary>Sets the shim of MartyState.get_StateLookupHandler()</summary>
+        </member>
+        <member name="P:Marty.Fakes.ShimMartyState.StateLookupHandlerSetStateLookupHandler">
+            <summary>Sets the shim of MartyState.set_StateLookupHandler(StateLookupHandler value)</summary>
+        </member>
+        <member name="T:Marty.Fakes.StubMartyBase">
+            <summary>Stub type of Marty.MartyBase</summary>
+        </member>
+        <member name="M:Marty.Fakes.StubMartyBase.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Marty.Fakes.StubMartyBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Marty.Fakes.StubMartyBase.InitializeStub">
+            <summary>Initializes a new instance of type StubMartyBase</summary>
+        </member>
+        <member name="P:Marty.Fakes.StubMartyBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Marty.Fakes.StubMartyBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Marty.Fakes.StubMartyBase.RegisterEvents">
+            <summary>Sets the stub of MartyBase.RegisterEvents()</summary>
+        </member>
+        <member name="F:Marty.Fakes.StubMartyBase.RegisterEvents01">
+            <summary>Sets the stub of MartyBase.RegisterEvents()</summary>
+        </member>
+        <member name="M:Marty.Fakes.StubMartyBase.RegisterStates">
+            <summary>Sets the stub of MartyBase.RegisterStates()</summary>
+        </member>
+        <member name="F:Marty.Fakes.StubMartyBase.RegisterStates01">
+            <summary>Sets the stub of MartyBase.RegisterStates()</summary>
+        </member>
+        <member name="M:Marty.Fakes.StubMartyBase.TopHandler(System.Int32,System.Object)">
+            <summary>Sets the stub of MartyBase.TopHandler(Int32 evt, Object payload)</summary>
+        </member>
+        <member name="F:Marty.Fakes.StubMartyBase.TopHandlerInt32Object">
+            <summary>Sets the stub of MartyBase.TopHandler(Int32 evt, Object payload)</summary>
+        </member>
+        <member name="P:Marty.Fakes.StubMartyBase.TopStartingState">
+            <summary>Sets the stub of MartyBase.get_TopStartingState()</summary>
+        </member>
+        <member name="F:Marty.Fakes.StubMartyBase.TopStartingStateGet">
+            <summary>Sets the stub of MartyBase.get_TopStartingState()</summary>
+        </member>
+        <member name="T:Marty.Fakes.StubMartyState">
+            <summary>Stub type of Marty.MartyState</summary>
+        </member>
+        <member name="M:Marty.Fakes.StubMartyState.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Marty.Fakes.StubMartyState.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Marty.Fakes.StubMartyState.InitializeStub">
+            <summary>Initializes a new instance of type StubMartyState</summary>
+        </member>
+        <member name="P:Marty.Fakes.StubMartyState.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Marty.Fakes.StubMartyState.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
