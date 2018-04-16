@@ -7,23 +7,100 @@
 2 info using npm@3.10.10
 3 info using node@v9.3.0
 4 verbose publish [ '.' ]
-5 verbose stack Error: kill ENOSYS
-5 verbose stack     at Object._errnoException (util.js:999:13)
-5 verbose stack     at process.kill (internal/process.js:173:18)
-5 verbose stack     at process.listener (C:\Users\brand_oywirwk\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
-5 verbose stack     at process.emit (events.js:164:20)
-5 verbose stack     at processEmit (C:\Users\brand_oywirwk\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
-5 verbose stack     at processEmit (C:\Users\brand_oywirwk\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
-5 verbose stack     at Signal.wrap.onsignal (internal/process.js:198:44)
-6 verbose cwd C:\Users\brand_oywirwk\Desktop\marty\packages\csharp
-7 error Windows_NT 10.0.16299
-8 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\brand_oywirwk\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
-9 error node v9.3.0
-10 error npm  v3.10.10
-11 error code ENOSYS
-12 error errno ENOSYS
-13 error syscall kill
-14 error kill ENOSYS
-15 error If you need help, you may report this error at:
-15 error     <https://github.com/npm/npm/issues>
-16 verbose exit [ 1, true ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Users\\brand_oywirwk\\Desktop\\marty\\packages\\csharp',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\brand_oywirwk\AppData\Roaming\npm-cache\@martyhsm\csharp\1.0.1\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\brand_oywirwk\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle @martyhsm/csharp@1.0.1~prepublish: @martyhsm/csharp@1.0.1
+11 silly lifecycle @martyhsm/csharp@1.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\brand_oywirwk\\AppData\\Roaming\\npm-cache\\@martyhsm\\csharp\\1.0.1\\package.tgz',
+12 verbose tar pack   'C:\\Users\\brand_oywirwk\\Desktop\\marty\\packages\\csharp' ]
+13 verbose tarball C:\Users\brand_oywirwk\AppData\Roaming\npm-cache\@martyhsm\csharp\1.0.1\package.tgz
+14 verbose folder C:\Users\brand_oywirwk\Desktop\marty\packages\csharp
+15 verbose addLocalTarball adding from inside cache C:\Users\brand_oywirwk\AppData\Roaming\npm-cache\@martyhsm\csharp\1.0.1\package.tgz
+16 verbose correctMkdir C:\Users\brand_oywirwk\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd @martyhsm/csharp@1.0.1
+18 verbose afterAdd C:\Users\brand_oywirwk\AppData\Roaming\npm-cache\@martyhsm\csharp\1.0.1\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\brand_oywirwk\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\brand_oywirwk\AppData\Roaming\npm-cache\@martyhsm\csharp\1.0.1\package\package.json written
+21 silly publish { name: '@martyhsm/csharp',
+21 silly publish   version: '1.0.1',
+21 silly publish   description: '',
+21 silly publish   main: 'marty.cs',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   author: { name: 'Brandon Phillips', url: 'brandon.phillips@live.com' },
+21 silly publish   license: 'MIT',
+21 silly publish   readme: '# Marty (C#)\r\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'af68ad7d28eb3ffb1096a921706766b7d0e5c862',
+21 silly publish   _id: '@martyhsm/csharp@1.0.1',
+21 silly publish   _shasum: '06a00e2e3720c2b60566e877ccfede95ec546263',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name @martyhsm/csharp
+24 silly mapToRegistry scope (from package name) @martyhsm
+25 verbose mapToRegistry no registry URL found in name for scope @martyhsm
+26 silly mapToRegistry scope (from config) @bdphil86
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@martyhsm/csharp',
+28 silly mapToRegistry   scope: '@martyhsm',
+28 silly mapToRegistry   escapedName: '@martyhsm%2fcsharp',
+28 silly mapToRegistry   name: '@martyhsm/csharp',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/@martyhsm%2fcsharp
+30 verbose publish registryBase https://registry.npmjs.org/
+31 silly publish uploading C:\Users\brand_oywirwk\AppData\Roaming\npm-cache\@martyhsm\csharp\1.0.1\package.tgz
+32 verbose request uri https://registry.npmjs.org/@martyhsm%2fcsharp
+33 verbose request sending authorization for write operation
+34 info attempt registry request try #1 at 03:44:09
+35 verbose request using bearer token for auth
+36 verbose request id e1532510534640bf
+37 http request PUT https://registry.npmjs.org/@martyhsm%2fcsharp
+38 http 402 https://registry.npmjs.org/@martyhsm%2fcsharp
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '49',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Mon, 16 Apr 2018 10:44:09 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-sea1040-SEA',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1523875449.927220,VS0,VE1051' }
+40 verbose request invalidating C:\Users\brand_oywirwk\AppData\Roaming\npm-cache\registry.npmjs.org\_40martyhsm_252fcsharp on PUT
+41 error publish Failed PUT 402
+42 verbose stack Error: You must sign up for private packages : @martyhsm/csharp
+42 verbose stack     at makeError (C:\Users\brand_oywirwk\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+42 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\brand_oywirwk\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+42 verbose stack     at Request._callback (C:\Users\brand_oywirwk\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+42 verbose stack     at Request.self.callback (C:\Users\brand_oywirwk\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+42 verbose stack     at Request.emit (events.js:159:13)
+42 verbose stack     at Request.<anonymous> (C:\Users\brand_oywirwk\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+42 verbose stack     at Request.emit (events.js:159:13)
+42 verbose stack     at IncomingMessage.<anonymous> (C:\Users\brand_oywirwk\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12)
+42 verbose stack     at IncomingMessage.emit (events.js:164:20)
+42 verbose stack     at endReadableNT (_stream_readable.js:1062:12)
+43 verbose statusCode 402
+44 verbose pkgid @martyhsm/csharp
+45 verbose cwd C:\Users\brand_oywirwk\Desktop\marty\packages\csharp
+46 error Windows_NT 10.0.16299
+47 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\brand_oywirwk\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+48 error node v9.3.0
+49 error npm  v3.10.10
+50 error code E402
+51 error You must sign up for private packages : @martyhsm/csharp
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
